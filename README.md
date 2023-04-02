@@ -11,11 +11,13 @@ It will create a new playlist and add all the found songs into the new playlist.
 # Running
 
 Install using pip
-```pip3 install spotipy
+```
+pip3 install spotipy
 ```
 
 Get the CLIENT_ID & CLIENT_SECRET from Spotify
-```Create a sp Client
+```
+Create a sp Client
 sp = spotipy.Spotify(
 auth_manager=SpotifyOAuth(
 scope="playlist-modify-private",
